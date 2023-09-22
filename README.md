@@ -1,2 +1,5 @@
 # Cookie-Clicker-Hack
-Read the ReadMe
+
+# HOW TO USE:
+Set This As A Bookmark:
+javascript:(function () {Game.LoadMod('')}());
