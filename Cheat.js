@@ -1,7 +1,7 @@
 if (typeof Crustulum !== 'undefined') {
     if (Crustulum === null) {
         delete Crustulum;
-    } else throw new Error('Crustulum already loaded.');
+    } else throw new Error('loaded.');
 }
 var Crustulum = {
     OG: {}, // Original Game Data
@@ -10,7 +10,7 @@ var Crustulum = {
             Crustulum.OG.UpdateMenu();
             if (Game.onMenu == 'prefs') {
                 let fragment = document.createDocumentFragment();
-                fragment.appendChild(Crustulum.Menu.heading('Anthony's Easy Cheat | Toggles'));
+                fragment.appendChild(Crustulum.Menu.heading('Easy Cheat | Toggles'));
                 fragment.appendChild(Crustulum.Menu.subheading('Auto Clickers'));
                 fragment.appendChild(Crustulum.Menu.toggleButton('autoClicker','Auto Click Big Cookie','Clicks the big cookie for you.'));
                 fragment.appendChild(Crustulum.Menu.toggleButton('autoGolden','Auto Click Golden Cookies','Clicks any golden cookies for you.'));
